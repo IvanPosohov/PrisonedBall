@@ -14,8 +14,8 @@ import javax.swing.*;
 /**
  * Главное окно игры
  */
-public class MainWidow {
-	private MainWidow() {
+public class MainWindow {
+	private MainWindow() {
         // Инициализируем свойства окна
         JFrame frame = new JFrame();
         frame.setVisible(true);
@@ -84,7 +84,7 @@ public class MainWidow {
         // Точка входа, создаем экземпляр главного окна
         EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWidow();
+                new MainWindow();
             }
         });
 	}
